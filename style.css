@@ -1,0 +1,129 @@
+body{
+    background-color:  hsl(210, 46%, 95%);
+    position: relative;
+}
+
+
+.testimonial-grid {
+    display: grid;
+    gap: 1.5rem;
+    padding-left: 6rem;
+    padding-block: 3rem;
+    width: min(95%, 70rem);
+    margin-top: -19px;
+    margin-bottom: 50px;
+    position: absolute;
+    
+}
+
+@media (min-width: 50em) {
+    .testimonial-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .testimonial-K {
+        background-color: hsl(0, 0%, 100%);
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        border-radius: 8px;
+        padding: 36px;
+    }
+    
+}
+
+
+.testimonial-D {
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right 1%;
+    background-color: hsl(263, 55%, 52%);
+    grid-column: span 2;
+    border-radius: 8px;
+    padding: 36px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex img {
+    max-width: 30px;
+    margin-top: 25px;
+    margin-left:25px;
+    border-radius: 50%;
+    
+}
+
+h2 {
+    margin-left: 18px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: hsl(210, 46%, 95%);
+}
+
+.position {
+    margin-left: 18px;
+    margin-top: -8px;
+    font-size: 14px;
+    color: hsl(210, 46%, 95%);
+    opacity: 50%;
+}
+
+p {
+    color: hsl(210, 46%, 95%);
+    text-align: center;
+    font-size: 19px;
+    text-align: left;
+}
+
+.comment {
+    color: hsl(210, 46%, 95%);
+    opacity: 50%;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: -4px;
+}
+
+.testimonial-J {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.testimonial-JH {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    padding: 29px;
+
+}
+
+.user {
+    color: hsl(219, 29%, 14%); 
+}
+
+.rank {
+    color: hsl(219, 29%, 14%); 
+    opacity: 60%;
+    margin-left: 18px;
+    margin-top: -8px;
+    font-size: 14px;
+    opacity: 50%;
+}
+
+.words {
+    color: hsl(219, 29%, 14%); 
+    opacity: 60%;
+    font-size: 12px;
+    text-align: left;
+}
+
+.testimonial-P {
+    background-color: hsl(219, 29%, 14%);
+    grid-column: span 2;
+    border-radius: 8px;
+    padding: 26px;
+}
+
+
+
